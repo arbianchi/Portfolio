@@ -7,6 +7,7 @@ class ActivityController < ActionController::Base
     }
 
     if resp.code == 200
+      puts resp
       @events = resp
     else
       raise "Panic!"

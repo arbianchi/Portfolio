@@ -24,7 +24,6 @@ var refreshFeed = function(list) {
 
 $(document).on("ready", function() {
   var feedList = $("#activity-feed")
-  console.log('running!')
   refreshFeed(feedList)
 
   // setInterval(function() {
